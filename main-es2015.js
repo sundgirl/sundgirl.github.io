@@ -58,7 +58,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"wrapper col-lg-4 col-sm-6 col-8\"><h2>Login</h2>\n  <div class=\"alert alert-danger position-fixed message\" *ngIf='error'>{{message}}</div>\n  <form [formGroup]='loginForm' (ngSubmit)='submit()'>\n    <div>\n      <div class=\"form-group\">\n        <label>Username</label>\n        <input class=\"form-control\" type=\"text\" formControlName='username'>\n      </div>\n      <div class=\"form-group\">\n        <label>Password</label>\n        <input class=\"form-control\" type=\"password\" formControlName='password'>\n      </div>\n      <div>\n        <button class=\"btn btn-primary\" [disabled]=\"loginForm.invalid\">Log in</button>\n        <a routerLink=\"/register\" class=\"link\">Register</a>\n      </div>\n    </div>\n  </form>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"alert alert-danger position-fixed message\" *ngIf='error'>{{message}}</div>\n<div class=\"wrapper col-lg-4 col-sm-6 col-8\"><h2>Login</h2>\n  <form [formGroup]='loginForm' (ngSubmit)='submit()'>\n    <div>\n      <div class=\"form-group\">\n        <label>Username</label>\n        <input class=\"form-control\" type=\"text\" formControlName='username'>\n      </div>\n      <div class=\"form-group\">\n        <label>Password</label>\n        <input class=\"form-control\" type=\"password\" formControlName='password'>\n      </div>\n      <div>\n        <button class=\"btn btn-primary\" [disabled]=\"loginForm.invalid\">Log in</button>\n        <a routerLink=\"/register\" class=\"link\">Register</a>\n      </div>\n    </div>\n  </form>\n</div>\n");
 
 /***/ }),
 
@@ -863,7 +863,7 @@ JwtInterceptor = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".wrapper {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -70%);\r\n  padding: 10px;\r\n  margin: 0 auto;\r\n  background-color:#f6fced;\r\n  box-shadow: 4px 4px 10px 0px;\r\n}\r\n\r\n.link {\r\n  margin-left: 15px;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFNBQVM7RUFDVCxnQ0FBZ0M7RUFDaEMsYUFBYTtFQUNiLGNBQWM7RUFDZCx3QkFBd0I7RUFDeEIsNEJBQTRCO0FBQzlCOztBQUVBO0VBQ0UsaUJBQWlCO0FBQ25CIiwiZmlsZSI6ImxvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud3JhcHBlciB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogNTAlO1xyXG4gIGxlZnQ6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNzAlKTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6I2Y2ZmNlZDtcclxuICBib3gtc2hhZG93OiA0cHggNHB4IDEwcHggMHB4O1xyXG59XHJcblxyXG4ubGluayB7XHJcbiAgbWFyZ2luLWxlZnQ6IDE1cHg7XHJcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".wrapper {\r\n  position: absolute;\r\n  top: 50%;\r\n  left: 50%;\r\n  transform: translate(-50%, -70%);\r\n  padding: 10px;\r\n  margin: 0 auto;\r\n  background-color:#f6fced;\r\n  box-shadow: 4px 4px 10px 0px;\r\n}\r\n\r\n.link {\r\n  margin-left: 15px;\r\n}\r\n\r\n.message {\r\n  z-index: 1;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImxvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBa0I7RUFDbEIsUUFBUTtFQUNSLFNBQVM7RUFDVCxnQ0FBZ0M7RUFDaEMsYUFBYTtFQUNiLGNBQWM7RUFDZCx3QkFBd0I7RUFDeEIsNEJBQTRCO0FBQzlCOztBQUVBO0VBQ0UsaUJBQWlCO0FBQ25COztBQUNBO0VBQ0UsVUFBVTtBQUNaIiwiZmlsZSI6ImxvZ2luL2xvZ2luLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIud3JhcHBlciB7XHJcbiAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gIHRvcDogNTAlO1xyXG4gIGxlZnQ6IDUwJTtcclxuICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNzAlKTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIG1hcmdpbjogMCBhdXRvO1xyXG4gIGJhY2tncm91bmQtY29sb3I6I2Y2ZmNlZDtcclxuICBib3gtc2hhZG93OiA0cHggNHB4IDEwcHggMHB4O1xyXG59XHJcblxyXG4ubGluayB7XHJcbiAgbWFyZ2luLWxlZnQ6IDE1cHg7XHJcbn1cclxuLm1lc3NhZ2Uge1xyXG4gIHotaW5kZXg6IDE7XHJcbn0iXX0= */");
 
 /***/ }),
 
@@ -897,12 +897,17 @@ let LoginComponent = class LoginComponent {
         });
     }
     ngOnInit() {
+        this.error = false;
     }
     submit() {
         if (!this.loginForm.invalid) {
             this.authService.login(this.loginForm.controls.username.value, this.loginForm.controls.password.value)
-                .subscribe(() => this.router.navigate(['/']));
+                .subscribe(x => x, err => this.getErrorMessage(err.error.message), () => this.router.navigate(['/']));
         }
+    }
+    getErrorMessage(message) {
+        this.error = true;
+        this.message = message;
     }
 };
 LoginComponent.ctorParameters = () => [
